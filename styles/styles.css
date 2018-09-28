@@ -146,7 +146,20 @@ figure {
   vertical-align: middle;
 }
 
-.container {
+/*.container {
   max-width: 1000px;
   margin: 0 auto;
+}*/
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.skill {
+  margin: 10px;
+  width: 450px;
+}
+
+.skill-imageContainer img{
+  width: 200px;
+} 
